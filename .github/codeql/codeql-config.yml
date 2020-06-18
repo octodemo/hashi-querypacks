@@ -7,7 +7,7 @@ queries:
 #     uses: security-extended  # same as the lgtm-full suite, but limited to security queries from that suite
   - name: local queries
     uses: ./.github/codeql/RegExp/
-    from: codeql-javascript
+    from: codeql-custom-queries-javascript
     
 # uses: ./.github/codeql/CWE-312/ #referencing querypack
 # uses: ./.github/codeql/CWE-312/CleartextLogging.ql #referencing single query
