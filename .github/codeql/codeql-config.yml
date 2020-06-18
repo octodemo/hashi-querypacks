@@ -5,8 +5,8 @@ disable-default-queries: true
 queries:
   ### NEW - the below suites are now available
   # - uses: security-and-quality # same as the lgtm-full suite
-  - name: additional queries 
-    uses: security-extended  # same as the lgtm-full suite, but limited to security queries from that suite
+#   - name: additional queries 
+#     uses: security-extended  # same as the lgtm-full suite, but limited to security queries from that suite
   - name: local queries
     uses: /CWE-312/
   
