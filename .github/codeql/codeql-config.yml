@@ -2,7 +2,7 @@ name: "My CodeQL config"
 
 disable-default-queries: true
 
-queries:
+query:
   ### NEW - the below suites are now available
   # - uses: security-and-quality # same as the lgtm-full suite
 #   - name: additional queries 
