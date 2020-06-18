@@ -5,9 +5,10 @@ disable-default-queries: true
 queries:
 #   - name: additional queries 
 #     uses: security-extended  # same as the lgtm-full suite, but limited to security queries from that suite
-  - name: local queries
+  - name: local CWE query
     uses: ./.github/codeql/CWE-312/ #referencing querypack
-    from: codeql-custom-queries-javascript
+    uses: ./.github/codeql/RegExp/
+#    from: codeql-custom-queries-javascript
 
 # uses: ./.github/codeql/RegExp/
 # uses: ./.github/codeql/CWE-312/ #referencing querypack
