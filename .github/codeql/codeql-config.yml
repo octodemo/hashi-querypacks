@@ -9,11 +9,6 @@ queries:
     uses: ./.github/codeql/CWE-312/ #referencing querypack
   - name: local RegExp query
     uses: ./.github/codeql/RegExp/
-#    from: codeql-custom-queries-javascript
-
-# uses: ./.github/codeql/RegExp/
-# uses: ./.github/codeql/CWE-312/ #referencing querypack
-# uses: ./.github/codeql/CWE-312/CleartextLogging.ql #referencing single query
   
 
 paths-ignore:
