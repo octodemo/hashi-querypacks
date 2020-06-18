@@ -8,7 +8,7 @@ queries:
 #   - name: additional queries 
 #     uses: security-extended  # same as the lgtm-full suite, but limited to security queries from that suite
   - name: local queries
-    uses: /CWE-312/
+    uses: ./CWE-312/CleartextLogging.ql
   
   ### OLD - do not use the below anymore
   #- name: Queries from lgtm.com (Java)
